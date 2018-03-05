@@ -1,4 +1,4 @@
-package com.saikiran.secure;
+package com.saikiran.App.secure;
 
 import org.springframework.data.repository.CrudRepository;
 

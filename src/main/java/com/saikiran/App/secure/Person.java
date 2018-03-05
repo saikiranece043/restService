@@ -1,4 +1,4 @@
-package com.saikiran.secure;
+package com.saikiran.App.secure;
 
 
 
@@ -10,15 +10,15 @@ import javax.persistence.Id;
 public class Person {
 
     @Id
-    private int employee_id;
+    private int employeeId;
     private String first_name;
     private String last_name;
     private String company;
 
 
-    public Person(int employee_id, String first_name, String last_name, String company) {
+    public Person(int employeeId, String first_name, String last_name, String company) {
         super();
-        this.employee_id = employee_id;
+        this.employeeId = employeeId;
         this.first_name = first_name;
         this.last_name = last_name;
         this.company = company;
@@ -28,12 +28,12 @@ public class Person {
 
     }
 
-    public int getEmployee_id() {
-        return employee_id;
+    public int getEmployeeId() {
+        return employeeId;
     }
 
-    public void setEmployee_id(int employee_id) {
-        this.employee_id = employee_id;
+    public void setEmployeeId(int employeeId) {
+        this.employeeId = employeeId;
     }
 
     public String getFirst_name() {
@@ -62,6 +62,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return String.format("EmployeeID : %d , FirstName : %s , LastName : %s",employee_id,first_name,last_name);
+        return String.format("EmployeeID : %d , FirstName : %s , LastName : %s", employeeId,first_name,last_name);
     }
 }
