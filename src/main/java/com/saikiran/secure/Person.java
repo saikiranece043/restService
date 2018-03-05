@@ -15,10 +15,6 @@ public class Person {
     private String last_name;
     private String company;
 
-    public Person(){
-
-    }
-
 
     public Person(int employee_id, String first_name, String last_name, String company) {
         super();
@@ -28,7 +24,9 @@ public class Person {
         this.company = company;
     }
 
+    public Person(){
 
+    }
 
     public int getEmployee_id() {
         return employee_id;

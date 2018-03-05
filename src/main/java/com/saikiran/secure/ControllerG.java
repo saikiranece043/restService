@@ -39,7 +39,18 @@ public Person getPerson(@PathVariable int id){
 }
 
 
-//searching person by name
+    //getting person working in a company
+    @RequestMapping("/persons/com/{name}")
+    public List<Person> getPerson(@PathVariable String name){
+        return personService.getPersonByCompany(name);
+    }
+
+
+
+
+
+
+//Deleting a person
 @RequestMapping(value = "/persons/{id}",method = RequestMethod.DELETE)
     public void deletePerson(@PathVariable int id){
                personService.deletePerson(id);

@@ -40,4 +40,10 @@ public class PersonService {
 
     }
 
+    public List<Person> getPersonByCompany(String a){
+            return personRepository.findByCompany(a);
+    }
+
+
+
 }
