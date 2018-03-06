@@ -14,7 +14,7 @@ public class Hobby {
     private String hobbyName;
 
 
-@ManyToOne(fetch = FetchType.LAZY)
+@ManyToOne
     private Person p;
 
     public Hobby()
