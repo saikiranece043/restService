@@ -2,6 +2,8 @@ package com.saikiran.App.secure;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,7 +17,10 @@ private PersonService personService;
 
 //getting persons from database
 @RequestMapping("/persons")
-    public List<Person> getPersons(){
+    public List<Person> getPersons(@AuthenticationPrincipal final UserDetails userDetails){
+
+    System.out.println(userDetails.getUsername());
+    userDetails.getAuthorities().forEach(System.out::println);
     return personService.getPersons();
 }
 
