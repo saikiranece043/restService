@@ -18,7 +18,6 @@ private PersonService personService;
 //getting persons from database
 @RequestMapping("/persons")
     public List<Person> getPersons(@AuthenticationPrincipal final UserDetails userDetails){
-
     System.out.println(userDetails.getUsername());
     userDetails.getAuthorities().forEach(System.out::println);
     return personService.getPersons();
