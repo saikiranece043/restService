@@ -1,0 +1,65 @@
+[33mcommit 8177ece56b7f83fb45d756c3f8ceb11ed593c9de[m[33m ([m[1;36mHEAD -> [m[1;32mspringSecurity_feature[m[33m)[m
+Author: saikiran <saikiranece043@gmail.com>
+Date:   Thu Mar 8 14:54:14 2018 -0500
+
+    Implemented Spring Security using basic auth DAO
+
+[33mcommit cac2f9a5742122616fbbd142431691207df44962[m
+Author: saikiran <saikiranece043@gmail.com>
+Date:   Wed Mar 7 16:09:12 2018 -0500
+
+    Implemented the basic security
+
+[33mcommit 0e2dcf62695326449df5289fc3a07a492e63179d[m
+Author: saikiran <saikiranece043@gmail.com>
+Date:   Tue Mar 6 08:37:01 2018 -0500
+
+    added few .idea files
+
+[33mcommit 0b1ba4833cc1d930ea0e0b2fae0e37a471dcf125[m
+Author: saikiran <saikiranece043@gmail.com>
+Date:   Tue Mar 6 08:36:32 2018 -0500
+
+    Spring security dependenecies added
+
+[33mcommit a5deef1f7128a356dd58359496d6a70d8d40b983[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: saikiran <saikiranece043@gmail.com>
+Date:   Tue Mar 6 08:29:04 2018 -0500
+
+    changed pom dependencies and hobby class refactoring
+
+[33mcommit fdaac7eca098e609c337e8b795407ae5c54cbae1[m
+Author: saikiran <saikiranece043@gmail.com>
+Date:   Mon Mar 5 12:19:43 2018 -0500
+
+    Included Hobbies Entity as a dependency to Person Entity
+
+[33mcommit 33ba4930c5caf909492e68d25e150b82cb3e765f[m
+Author: saikiran <saikiranece043@gmail.com>
+Date:   Mon Mar 5 10:21:02 2018 -0500
+
+    added .idea files
+
+[33mcommit 26b245a5e550dc4d2a3fffef09b32668c3c9ccb1[m
+Author: saikiran <saikiranece043@gmail.com>
+Date:   Mon Mar 5 10:19:27 2018 -0500
+
+    enhancement to search a person by CompanyName
+
+[33mcommit 6f0a9d138a96ad95e149d184584611b6d8ee6b14[m
+Author: saikiran <saikiranece043@gmail.com>
+Date:   Mon Mar 5 09:50:50 2018 -0500
+
+    commited intellij specific files
+
+[33mcommit 7f013cf5494cdc7a3e778ff901b6d0f0352c80ae[m
+Author: saikiran <saikiranece043@gmail.com>
+Date:   Mon Mar 5 09:48:49 2018 -0500
+
+    removed the file hobby.java from the project
+
+[33mcommit edb6a57e8e9198f29d779cedc960f2c1134c1c9b[m[33m ([m[1;32mhelp[m[33m)[m
+Author: saikiran <saikiranece043@gmail.com>
+Date:   Mon Mar 5 09:23:17 2018 -0500
+
+    The first project commit

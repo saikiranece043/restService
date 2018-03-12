@@ -1,9 +1,12 @@
 package com.saikiran.App.hobbies;
 
+
 import com.saikiran.App.secure.Person;
 
 
 import javax.persistence.*;
+
+
 
 @Entity
 public class Hobby {
@@ -14,7 +17,7 @@ public class Hobby {
     private String hobbyName;
 
 
-@ManyToOne
+@ManyToOne()
     private Person p;
 
     public Hobby()
